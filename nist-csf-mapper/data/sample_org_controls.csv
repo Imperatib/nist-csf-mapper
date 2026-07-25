@@ -1,0 +1,9 @@
+control_id,description,csf_subcategory,status,owner
+CTRL-001,MFA enforced for all admin accounts,PR.AA-01,implemented,IT Security
+CTRL-002,Quarterly access review for privileged accounts,PR.AA-05,implemented,IT Security
+CTRL-003,Asset inventory maintained in CMDB,ID.AM-01,implemented,IT Ops
+CTRL-004,Continuous monitoring of endpoint hardware,DE.CM-09,not_implemented,SOC
+CTRL-005,Incident response plan documented and tested annually,RS.MA-01,partial,SOC
+CTRL-006,Data classification policy published,PR.DS-01,implemented,GRC
+CTRL-007,Vendor risk assessments performed pre-onboarding,GV.RM-02,not_implemented,GRC
+CTRL-008,Backup and recovery plan tested,RC.RP-01,partial,IT Ops

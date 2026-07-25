@@ -1,0 +1,26 @@
+{
+  "GV": {
+    "name": "GOVERN",
+    "subcategories": ["GV.OC-01", "GV.OC-02", "GV.OC-03", "GV.RM-01", "GV.RM-02", "GV.PO-01"]
+  },
+  "ID": {
+    "name": "IDENTIFY",
+    "subcategories": ["ID.AM-01", "ID.AM-02", "ID.RA-01", "ID.RA-02", "ID.IM-01"]
+  },
+  "PR": {
+    "name": "PROTECT",
+    "subcategories": ["PR.AA-01", "PR.AA-05", "PR.AT-01", "PR.DS-01", "PR.DS-02", "PR.PS-01"]
+  },
+  "DE": {
+    "name": "DETECT",
+    "subcategories": ["DE.CM-01", "DE.CM-09", "DE.AE-02"]
+  },
+  "RS": {
+    "name": "RESPOND",
+    "subcategories": ["RS.MA-01", "RS.AN-01", "RS.CO-01", "RS.MI-01"]
+  },
+  "RC": {
+    "name": "RECOVER",
+    "subcategories": ["RC.RP-01", "RC.CO-01", "RC.CO-02"]
+  }
+}

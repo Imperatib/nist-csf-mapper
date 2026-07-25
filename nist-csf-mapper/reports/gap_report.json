@@ -1,0 +1,199 @@
+{
+  "functions": {
+    "GV": {
+      "name": "GOVERN",
+      "subcategories": {
+        "GV.OC-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "GV.OC-02": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "GV.OC-03": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "GV.RM-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "GV.RM-02": {
+          "status": "not_implemented",
+          "control_id": "CTRL-007",
+          "owner": "GRC"
+        },
+        "GV.PO-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        }
+      }
+    },
+    "ID": {
+      "name": "IDENTIFY",
+      "subcategories": {
+        "ID.AM-01": {
+          "status": "implemented",
+          "control_id": "CTRL-003",
+          "owner": "IT Ops"
+        },
+        "ID.AM-02": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "ID.RA-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "ID.RA-02": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "ID.IM-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        }
+      }
+    },
+    "PR": {
+      "name": "PROTECT",
+      "subcategories": {
+        "PR.AA-01": {
+          "status": "implemented",
+          "control_id": "CTRL-001",
+          "owner": "IT Security"
+        },
+        "PR.AA-05": {
+          "status": "implemented",
+          "control_id": "CTRL-002",
+          "owner": "IT Security"
+        },
+        "PR.AT-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "PR.DS-01": {
+          "status": "implemented",
+          "control_id": "CTRL-006",
+          "owner": "GRC"
+        },
+        "PR.DS-02": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "PR.PS-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        }
+      }
+    },
+    "DE": {
+      "name": "DETECT",
+      "subcategories": {
+        "DE.CM-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "DE.CM-09": {
+          "status": "not_implemented",
+          "control_id": "CTRL-004",
+          "owner": "SOC"
+        },
+        "DE.AE-02": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        }
+      }
+    },
+    "RS": {
+      "name": "RESPOND",
+      "subcategories": {
+        "RS.MA-01": {
+          "status": "partial",
+          "control_id": "CTRL-005",
+          "owner": "SOC"
+        },
+        "RS.AN-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "RS.CO-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "RS.MI-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        }
+      }
+    },
+    "RC": {
+      "name": "RECOVER",
+      "subcategories": {
+        "RC.RP-01": {
+          "status": "partial",
+          "control_id": "CTRL-008",
+          "owner": "IT Ops"
+        },
+        "RC.CO-01": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        },
+        "RC.CO-02": {
+          "status": "not_implemented",
+          "control_id": null,
+          "owner": null
+        }
+      }
+    }
+  },
+  "summary": {
+    "total_subcategories": 27,
+    "fully_covered": 4,
+    "coverage_pct": 14.8,
+    "critical_gaps": [
+      "GV.OC-01",
+      "GV.OC-02",
+      "GV.OC-03",
+      "GV.RM-01",
+      "GV.PO-01",
+      "ID.AM-02",
+      "ID.RA-01",
+      "ID.RA-02",
+      "ID.IM-01",
+      "PR.AT-01",
+      "PR.DS-02",
+      "PR.PS-01",
+      "DE.CM-01",
+      "DE.AE-02",
+      "RS.AN-01",
+      "RS.CO-01",
+      "RS.MI-01",
+      "RC.CO-01",
+      "RC.CO-02"
+    ],
+    "high_gaps": [
+      "RS.MA-01",
+      "RC.RP-01"
+    ]
+  }
+}

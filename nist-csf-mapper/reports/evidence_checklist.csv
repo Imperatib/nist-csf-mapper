@@ -1,0 +1,9 @@
+control_id,csf_subcategory,status,owner,evidence_artifact,collected
+CTRL-001,PR.AA-01,implemented,IT Security,Access review report / screenshots of MFA + RBAC config,
+CTRL-002,PR.AA-05,implemented,IT Security,Access review report / screenshots of MFA + RBAC config,
+CTRL-003,ID.AM-01,implemented,IT Ops,Asset inventory export (CMDB report),
+CTRL-004,DE.CM-09,not_implemented,SOC,SIEM dashboard export / log retention config,
+CTRL-005,RS.MA-01,partial,SOC,Signed policy document with version/date,
+CTRL-006,PR.DS-01,implemented,GRC,Signed policy document with version/date,
+CTRL-007,GV.RM-02,not_implemented,GRC,Vendor risk assessment questionnaire + sign-off,
+CTRL-008,RC.RP-01,partial,IT Ops,IR plan document + most recent tabletop exercise report,
