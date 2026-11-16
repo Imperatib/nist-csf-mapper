@@ -31,7 +31,7 @@ nist-csf-mapper/
 ## Quick Start
 
 ```bash
-pip install --break-system-packages -r requirements.txt   # (or: no extra deps needed — stdlib only)
+# Python 3.8+, standard library only (no extra packages required)
 
 # Run a gap analysis against the full NIST CSF 2.0 framework (106 subcategories)
 python gap_analyzer.py --controls data/sample_org_controls.csv \
